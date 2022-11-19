@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:basic": "node src/basic_auth/index.js",
+    "start:session": "node src/forms_auth/index.js",
+    "start:token": "node src/token_auth/index.js"
   },
   "repository": {
     "type": "git",
